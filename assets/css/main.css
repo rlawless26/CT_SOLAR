@@ -5766,7 +5766,7 @@ input:focus:-ms-input-placeholder {
 	.height-xs,
 	.height-sm,
 	#owl-main .item {
-		height: 480px;
+		height: 750px;
 	}
 	
 	#hero h1 {
@@ -5806,7 +5806,7 @@ input:focus:-ms-input-placeholder {
 	#owl-main .item,
 	#owl-main.height-md .item,
 	#owl-main.height-lg .item {
-		height: 600px;
+		height: 750px;
 	}
 }
 
