@@ -28,6 +28,12 @@ figure img {
     width: 100%;
     height: auto;
 }
+
+figure img services{
+    width: 220px;
+    height: auto;
+}
+
 img[src*=".svg"] {
 	height: 100%; 
 }
@@ -675,6 +681,11 @@ figure.post-media + * {
 .light-bg.img-bg-softer:before {
 	background-color: #F2F5F7;
 	opacity: .95;
+}
+
+.light-bg.img-bg-softerr:before {
+	background-color: #e9a326;
+	opacity: .7;
 }
 .dark-bg.img-bg-softer:before {
 	background-color: #2F4052;
