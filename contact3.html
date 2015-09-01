@@ -150,35 +150,19 @@
 							
 							<h2>Leave a Message</h2>
 							
-							<form id="contactform" class="forms" action="contact.php" method="post">
-								
-								<div class="row">
-									<div class="col-sm-6">
-										<input type="text" name="name" class="form-control" placeholder="Name (Required)">
-									</div><!-- /.col -->
-								</div><!-- /.row -->
-								
-								<div class="row">
-									<div class="col-sm-6">
-										<input type="email" name="email" class="form-control" placeholder="Email (Required)">
-									</div><!-- /.col -->
-								</div><!-- /.row -->
-								
-								<div class="row">
-									<div class="col-sm-6">
-										<input type="text" name="subject" class="form-control" placeholder="Subject">
-									</div><!-- /.col -->
-								</div><!-- /.row -->
-								
-								<div class="row">
-									<div class="col-sm-12">
-										<textarea name="message" class="form-control" placeholder="Enter your message ..."></textarea>
-									</div><!-- /.col -->
-								</div><!-- /.row -->
-								
-								<button type="submit" class="btn btn-default btn-submit">Submit message</button>
-								
-							</form>
+							<!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({ 
+  	submitButtonClass: 'hubspot-btn',
+	errorMessageClass: 'section-subheading text-muted',
+	css: 'input[type="text"], input[type="email"], input[type="tel"] {height:60px; margin-bottom:20px; border-radius:3px; width: 100%; padding:20px; border:0;} select {height:60px; margin-bottom:20px; border-radius:3px; width: 100%; padding:20px; border:0;} .hs-form.stacked label {display: none;} .hs-form fieldset {max-width: 100%!important;} .hs_submit {text-align:center;} .hbspt-form {padding: 0px; border-radius: 0px;} .submitted-message {text-align:center; margin-bottom: 15px;font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif; font-size: 35px; font-style: italic; line-height: 40px; color: #17b08d;}',
+    portalId: '93449',
+    formId: 'db6874c3-1b5d-444a-97ca-0c25a58af2fc'
+  });
+</script>
 							
 							<div id="response"></div>
 							
@@ -486,23 +470,15 @@
 			<script src="assets/js/onscroll.js"></script>
 		<!-- <![endif]-->
 		
-		<!-- For demo purposes – can be removed on production -->
-		<link href="assets/css/green.css" rel="alternate stylesheet" title="Green color">
-		<link href="assets/css/blue.css" rel="alternate stylesheet" title="Blue color">
-		<link href="assets/css/red.css" rel="alternate stylesheet" title="Red color">
-		<link href="assets/css/pink.css" rel="alternate stylesheet" title="Pink color">
-		<link href="assets/css/purple.css" rel="alternate stylesheet" title="Purple color">
-		<link href="assets/css/orange.css" rel="alternate stylesheet" title="Orange color">
-		<link href="assets/css/navy.css" rel="alternate stylesheet" title="Navy color">
-		<link href="assets/css/gray.css" rel="alternate stylesheet" title="Gray color">
-		
-		<script src="switchstylesheet/switchstylesheet.js"></script>
-		
-		<script>
-			$(document).ready(function(){ 
-				$(".changecolor").switchstylesheet( { seperator:"color"} );
-			});
-		</script>
-		<!-- For demo purposes – can be removed on production : End -->
+		<!-- Start of Async HubSpot Analytics Code -->
+  <script type="text/javascript">
+    (function(d,s,i,r) {
+      if (d.getElementById(i)){return;}
+      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+      n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/93449.js';
+      e.parentNode.insertBefore(n, e);
+    })(document,"script","hs-analytics",300000);
+  </script>
+<!-- End of Async HubSpot Analytics Code -->
 	</body>
 </html>
