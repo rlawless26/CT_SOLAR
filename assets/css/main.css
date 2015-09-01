@@ -5885,6 +5885,20 @@ a.changecolor {
     background-color: #e9a326;   
  }
  
+ .hubspot-btn-contact {
+    padding: 20px 40px;
+    border-color: #e9a326;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+      width: 236px;
+      height: 67px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #e9a326;   
+ }
+ 
  .overlay {
     background: rgba(0, 0, 0, 0.3);
     }
